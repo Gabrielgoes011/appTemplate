@@ -1,0 +1,25 @@
+{
+  "name": "apptemplate-back",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend template (Express) para projetos. Login mockado sem banco de dados.",
+  "main": "server.js",
+  "author": "Gabriel Goes",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "optionalDependencies": {
+    "pg": "^8.13.1"
+  }
+}
